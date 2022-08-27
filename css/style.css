@@ -1,0 +1,76 @@
+@font-face {
+    src: url('css/timer.ttf');
+    font-family: timer;
+}
+
+body {
+    margin: 0;
+    background: #0C4A6E;
+    color: white;
+}
+
+.container {
+    width: 95%;
+    max-width: 350px;
+    margin: 5em auto;
+    margin-bottom: 1em;
+    display: flex;
+    background: #14213d;
+    justify-content: space-around;
+    padding: 4em 3em;
+    text-align: center;
+    align-items: center;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px #9AABD8 solid;
+}
+
+
+h2, p {
+    margin-top: 0;
+}
+
+
+h2  {
+    letter-spacing: 8px;
+    margin-bottom: 0.6em;
+    font-size: 2.rem; 
+}
+
+p {
+    color: salmon;
+    padding: 0.2em 0.5em;
+    background: black;
+    font-size: 5rem;
+    margin-bottom: 0.3em;
+    border: 1px solid #9AABD8 ;
+}
+
+p, button {
+    border-radius: 5px;
+    font-family: timer;
+}
+
+button {
+    background: rgba(255,255,255,.0);
+    border: 0.1px #9AABD8 solid;
+    color: #9AABD8;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    letter-spacing: 
+}
+
+.home, .guest {
+    width: 35%
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reset {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}

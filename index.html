@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Point counter</title>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link href='css/style.css' rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class='container'>
+            <div class='home'>
+                <h2>HOME</h2>
+                <p class="score" id="homescore">0</p>
+                <div class='buttons'>
+                <button class="btn" onclick="add1()">+1</button>
+                <button class="btn" onclick="add2()">+2</button>
+                <button class="btn" onclick="add3()">+3</button>
+                </div>
+            </div>
+    
+            <div class='guest'>
+                <h2>GUEST</h2>
+                <p class="score" id="guestscore">0</p>
+                <div class='buttons'>
+                <button class="btn" onclick="add1g()">+1</button>
+                <button class="btn" onclick="add2g()">+2</button>
+                <button class="btn" onclick="add3g()">+3</button>
+                </div>
+            </div>
+            
+        </div>
+        <button class='reset' onclick="reset()">RESET</button>
+        <script src='index.js'></script>
+    </body>
+</html>
